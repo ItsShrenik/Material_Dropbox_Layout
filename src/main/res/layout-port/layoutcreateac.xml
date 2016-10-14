@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0c79f3">
+
+    <EditText
+        android:id="@+id/cfstname"
+        android:singleLine="true"
+        android:hint="First Name"
+        android:typeface="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginLeft="45dp"
+        android:textSize="14dp"
+        android:layout_marginBottom="5dp"
+        android:cursorVisible="false"
+        android:textColorHint="#FFFFFF"
+
+        />
+
+    <EditText
+        android:layout_gravity="center_horizontal"
+        android:typeface="serif"
+        android:id="@+id/clstname"
+        android:singleLine="true"
+        android:hint="Last Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginLeft="45dp"
+        android:textSize="14dp"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginBottom="5dp" />
+
+    <EditText
+        android:id="@+id/cemail"
+        android:hint="Email"
+        android:singleLine="true"
+        android:typeface="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="55dp"
+        android:layout_marginLeft="45dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14dp"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginTop="10dp"
+
+        android:layout_marginBottom="5dp" />
+    <EditText
+        android:id="@+id/cpass"
+        android:hint="Password"
+        android:singleLine="true"
+        android:typeface="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="55dp"
+        android:layout_marginLeft="45dp"
+        android:textSize="14dp"
+        android:textColorHint="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp" />
+
+    <Button
+        android:id="@+id/btncreateac"
+        android:text="Create Account"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+
+        android:typeface="serif"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp" />
+</LinearLayout>

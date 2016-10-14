@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0c79f3">
+    <EditText
+        android:id="@+id/lemail"
+        android:hint="Email"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="20dp"
+        android:typeface="serif"
+        android:textSize="14dp"
+        android:textColorHint="#FFFFFF"/>
+    <EditText
+        android:id="@+id/lpass"
+        android:hint="Password"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="20dp"
+        android:typeface="serif"
+        android:textColorHint="#FFFFFF"
+        android:textSize="14dp"/>
+    <Button
+        android:id="@+id/btnloginac"
+        android:text="Sign In"
+        android:typeface="serif"
+        android:textAllCaps="false"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/lprblmtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Having trouble signing in ?"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:typeface="serif"
+        android:layout_marginBottom="5dp" />
+</LinearLayout>
